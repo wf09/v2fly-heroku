@@ -16,7 +16,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 {
   "inbounds": [
  {
-      "port": 8080,
+      "port": $PORT,
       "listen": "0.0.0.0",
       "protocol": "socks",
       "settings": {
